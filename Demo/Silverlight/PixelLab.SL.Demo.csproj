@@ -43,6 +43,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ModalConentControlPage.xaml.cs">
+      <DependentUpon>ModalConentControlPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DemoHost.xaml.cs">
       <DependentUpon>DemoHost.xaml</DependentUpon>
     </Compile>
@@ -68,6 +71,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Page Include="ModalConentControlPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="DemoHost.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

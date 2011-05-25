@@ -18,7 +18,7 @@ namespace PixelLab.SL.Demo
             CompositionInitializer.SatisfyImports(this);
 
             var items = Catalog.OrderBy(v => v.Metadata.Name).ToList();
-            var welcome = items.FirstOrDefault(m => m.Metadata.Name.Equals("welcome", System.StringComparison.InvariantCultureIgnoreCase));
+            var welcome = items.FirstOrDefault(m => m.Metadata.Name.Equals("Modal Window", System.StringComparison.InvariantCultureIgnoreCase));
             if (welcome != null)
             {
                 items.Remove(welcome);
